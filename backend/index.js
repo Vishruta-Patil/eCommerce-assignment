@@ -16,7 +16,7 @@ app.use(cors(corsOptions))
 
 connectDB()
 
-const port = 8000 || process.env.PORT
+const port = process.env.PORT
 
 app.get("/", (req,res) => {
     res.send("Server Started on the PORT")
