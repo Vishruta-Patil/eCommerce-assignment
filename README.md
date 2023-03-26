@@ -5,15 +5,6 @@
 </div>
 
 
-## **How to install and run locally ?**
-
-```
-$ git clone https://github.com/Vishruta-Patil/magniZent-Store-react.git
-$ cd magnizent-store-react
-$ npm install
-$ npm start
-```
-
 ## **Features -**
 
 - Home page
@@ -21,20 +12,24 @@ $ npm start
 - Filter and sort products functionalities
 - Search product functionality
 - Individual product page
-- Cart Managment
-- Wishlist managment
+- Cart Management
+- Wishlist management
 - Authentication:
-  - User Signup
+  - User Sign up
   - User Login
   - logout page
+- 404 Page
+- Loading & Alert
+- Fully Responsive
 
 ## **Built with -**
 
 - React JS
+- Node JS
+- Express JS
+- MongoDB
 - React Context API + useReducer
 - React Router v6
 - Git For Version Control
-- Netlify for Deployment
+- Vercel for Deployment
 - Cloudinary for Image Hosting
-
-
